@@ -16,11 +16,10 @@ export default function Navbar() {
     }`}>
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <a href="#top" className="text-white font-semibold tracking-tight text-lg">
-          <span className="text-cyan-400">{`<`}</span> your.name <span className="text-cyan-400">{`/>`}</span>
+          <span className="text-cyan-400">{`<`}</span> AI · Data Science <span className="text-cyan-400">{`/>`}</span>
         </a>
         <div className="hidden md:flex items-center gap-6 text-sm">
-          <a href="#projects" className="text-white/80 hover:text-white transition-colors">Projects</a>
-          <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
+          <a href="#projects" className="text-white/80 hover:text-white transition-colors">Case Studies</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
         </div>
       </nav>

@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="top" className="relative min-h-[90vh] w-full overflow-hidden">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode"
+          scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
         {/* subtle gradient edges that do not block interaction */}
@@ -16,12 +16,13 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-32 pb-24 flex flex-col items-start">
-        <p className="text-cyan-300/90 text-sm md:text-base font-medium tracking-widest uppercase">Interactive Portfolio</p>
+        <p className="text-cyan-300/90 text-sm md:text-base font-medium tracking-widest uppercase">AI & Data Science Engineer</p>
         <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-white max-w-3xl">
-          Building playful, modern, tech-driven experiences.
+          Designing intelligent systems that turn data into products.
         </h1>
         <p className="mt-4 text-white/80 max-w-2xl">
-          I craft digital products that merge delightful interactions, strong visuals, and clean code.
+          I build end‑to‑end machine learning solutions—from data pipelines to deployed models—
+          with a focus on reliability, performance, and delightful UX.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -29,7 +30,7 @@ export default function Hero() {
             href="#projects"
             className="group inline-flex items-center gap-2 rounded-full bg-cyan-500/90 hover:bg-cyan-400 text-black px-5 py-3 font-semibold transition-colors"
           >
-            View Projects
+            Explore Case Studies
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <a
