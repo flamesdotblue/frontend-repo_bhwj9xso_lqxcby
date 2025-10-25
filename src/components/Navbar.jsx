@@ -19,7 +19,11 @@ export default function Navbar() {
           <span className="text-cyan-400">{`<`}</span> AI · Data Science <span className="text-cyan-400">{`/>`}</span>
         </a>
         <div className="hidden md:flex items-center gap-6 text-sm">
+          <a href="#education" className="text-white/80 hover:text-white transition-colors">Education</a>
+          <a href="#experience" className="text-white/80 hover:text-white transition-colors">Experience</a>
+          <a href="#skills" className="text-white/80 hover:text-white transition-colors">Skills</a>
           <a href="#projects" className="text-white/80 hover:text-white transition-colors">Case Studies</a>
+          <a href="#events" className="text-white/80 hover:text-white transition-colors">Events</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
         </div>
       </nav>
